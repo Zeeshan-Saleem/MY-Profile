@@ -1,0 +1,299 @@
+.nav1 {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button:hover {
+    color: rgb(75, 84, 224);
+}
+
+.Future_Projects:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.Media:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.News:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.donations:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.about:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.services:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px
+}
+
+.home:hover {
+    background-color: rgb(75, 84, 224);
+    border-radius: 30px;
+}
+
+.fa {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.top-button {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.nav_para {
+    color: white;
+    padding-left: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    vertical-align: text-top;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.button:hover {
+    color: rgb(75, 84, 224);
+}
+
+.intro {
+    text-align: center;
+    color: blue;
+}
+
+.info {
+    background-color: whitesmoke;
+}
+
+.introimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.complete_paragraph {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.row1 {
+    display: flex-box;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row2 {
+    display: flex-box;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+/* bluebox */
+
+.bluebox {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box {
+    width: 20%;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.dk {
+    text-transform: capitalize;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    padding: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box {
+        width: 90%;
+    }
+}
+
+
+/* mission */
+
+.boxes {
+    color: blue;
+    text-align: center;
+}
+
+.mission {
+    color: blue;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    color: blue;
+    padding-left: 80px;
+    justify-content: space-around;
+}
+
+.mission::before {
+    content: "|";
+    color: greenyellow;
+}
+
+
+/* footer styling */
+
+.p {
+    color: #999;
+    line-height: 25px;
+}
+
+h2,
+h3 {
+    color: #fff;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 10px 0;
+}
+
+.segment-one h3 {
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-one p {
+    color: white;
+}
+
+.segment-two h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-one ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.segment-one ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 30px;
+}
+
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 60%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.footer-bottom-text {
+    background-color: lightblue;
+    padding-left: 60px;
+    line-height: 50px;
+}
+
+@media only screen and(min-width:768px) and (max-width:991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and(min-width:767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+.segment-three {
+    margin-left: 200px;
+}
+
+.segment-two {
+    margin-left: 60px;
+}
+
+.top-button {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
